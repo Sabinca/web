@@ -1,0 +1,48 @@
+body {
+  background-color: pink;
+  font-family: 'Permanent Marker', cursive;
+
+}
+#nav {
+  text-align: center;
+  padding: 30px;
+
+
+}
+#nav  a {
+  font-size: 20px;
+  margin: 50px;
+color: red;
+
+}
+#mreza {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-areas:
+    "nav nav"
+    "jedro meni";
+
+}
+#mreza > div {
+background-color: lightyellow;
+}
+#nav {
+  grid-area: nav;
+}
+#jedro {
+  grid-area: jedro;
+
+}
+#jedro {
+  font-size: 15px;
+  font-style: oblique;
+  text-align: justify;
+  text-align: center;
+  padding: 30px;
+}
+#meni {
+  grid-area: meni;
+  text-align: center;
+  padding: 15px;
+
+}
